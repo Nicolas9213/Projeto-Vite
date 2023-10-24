@@ -1,7 +1,7 @@
 .section {
     background-image: url("./public/images/background.png");
     padding-bottom: 100px;
-    padding-top: 18%;
+    padding-top: 10%;
 }
 
 .card {
@@ -9,10 +9,11 @@
     background-color: #FFF3E3;
     width: 50%;
     height: 40%;
-    border-radius: 16px;
+    border-radius: 12px;
 }
-.botao{
+.botao {
     margin-left: 10%;
+    margin: 5%;
     display: inline-flex;
     padding: 25px 72px;
     align-items: flex-start;
@@ -29,7 +30,8 @@
 }
 .text1 {
     padding-top: 10%;
-    margin-left: 10%;
+    margin-left: 8%;
+    width: 50%;
     color: var(--font-color, #333);
     font-family: Poppins;
     font-size: 16px;
@@ -39,8 +41,9 @@
     letter-spacing: 3px;
 }
 .text2 {
-    margin-left: 10%;
-    width: 559px;
+    margin-left: 8%;
+    margin-top: -2%;
+    width: 70%;
     height: 127px;
     flex-shrink: 0;
     color: var(--Primary, #B88E2F);
@@ -51,8 +54,8 @@
     line-height: 65px; /* 125% */
 }
 .text3 {
-    margin-left: 10%;
-    width: 546px;
+    margin-left: 8%;
+    width: 80%;
     height: 52px;
     flex-shrink: 0;
     color: var(--font-color, #333);

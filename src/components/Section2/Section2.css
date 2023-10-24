@@ -1,0 +1,29 @@
+.text {
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text h2 {
+    width: 100%;
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.text h3 {
+    width: 100%;
+    margin: -2%;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.images {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;    
+}

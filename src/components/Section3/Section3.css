@@ -1,0 +1,7 @@
+.section3 {
+    display: flex;
+    flex-direction: row;
+}
+.images {
+    background-color: #F4F5F7;
+}
