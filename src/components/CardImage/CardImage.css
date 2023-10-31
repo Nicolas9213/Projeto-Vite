@@ -1,0 +1,10 @@
+.prices {
+    display: flex;
+    flex-direction: row;
+}
+.price2 {
+    text-decoration:line-through;
+    color: #b0b0b0;
+    font-weight: 400;
+    margin-left: 3% ;
+}
