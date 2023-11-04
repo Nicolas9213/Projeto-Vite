@@ -2,7 +2,7 @@ import './CardImage.css';
 
 function CardImage (props) {
     return (
-        <div>
+        <div className='Card'>
             <img src={props.img} />
             <h3 className="title" >{props.title}</h3>
             <h4 className='description'>{props.description}</h4>

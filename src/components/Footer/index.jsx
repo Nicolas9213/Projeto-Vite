@@ -1,11 +1,13 @@
 import './Footer.css';
 
 function Footer () {
-    return (<section className='footer'>
+    return (
+    <section className='footer'>
         <div className='part1'>
             <div className='texta'>
-                <h4>Funiro</h4>
-                <p>400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
+                <h4>Funiro.</h4>
+                <p>400 University Drive Suite 200 Coral Gables,</p>
+                <p>FL 33134 USA</p>
             </div>
             <div className='textb'>
                 <h4>Links</h4>
@@ -22,8 +24,21 @@ function Footer () {
             </div>
             <div className='textd'>
                 <h4>Newsletter</h4>
-                <p>Enter Your Email Address</p>
+                <div className='contentd'>
+                    <div className='left'>
+                        <p>Enter Your Email Address</p>
+                        <img src="./public/images/Line 2.png" alt="" />
+                    </div>
+                    <div className='right'>
+                        <p>SUBSCRIBE</p>
+                        <img src="./public/images/Line 2.png" alt="" />
+                    </div>
+                </div>
             </div>
+        </div>
+        <div className='part2'>
+            <img src="./public/images/Line 4.png" alt="" />
+            <p>2023 furino. All rights reserved</p>
         </div>
     </section>
     )

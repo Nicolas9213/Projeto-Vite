@@ -36,4 +36,6 @@
     flex-direction: row;
     justify-content: space-around;
     font-family: Poppins;
+    width: 80%;
+    height: 80%;
 }
