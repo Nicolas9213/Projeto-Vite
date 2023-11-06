@@ -1,6 +1,8 @@
 .prices {
     display: flex;
     flex-direction: row;
+    margin-left: 5%;
+    font-size: 1.2rem;
 }
 .price2 {
     text-decoration:line-through;
@@ -9,6 +11,27 @@
     margin-left: 3% ;
 }
 
-div {
+.textCard {
+    margin-left: 5%;
+}
+
+.Card {
+    background-color: #f4f5f7;
     margin: 1%;
+    width: 80%;
+}
+
+.description {
+    color: #898989;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.Card img {
+    width: 100%;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 1.5rem;
 }
